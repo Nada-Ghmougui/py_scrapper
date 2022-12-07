@@ -1,0 +1,187 @@
+1670261226468	geckodriver	INFO	Listening on 127.0.0.1:63181
+1670261229524	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--no-sandbox" "--disable-dev-shm-usage" "--ignore-certificate-errors" "--disable-gpu" "--log-level=3" "--disable-notifications" "--disable-popup-blocking" "--remote-debugging-port" "63182" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\semeh\\AppData\\Local\\Temp\\rust_mozprofilecUFZ1Y"
+*** You are running in headless mode.
+1670261235704	Marionette	INFO	Marionette enabled
+1670261235714	Marionette	INFO	Listening on port 63256
+Read port: 63256
+WebDriver BiDi listening on ws://127.0.0.1:63182
+1670261236046	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1670261236350	RemoteAgent	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"127.0.0.1:63180","sslProxy":"127.0.0.1:63180"}
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\semeh\\AppData\\Local\\Temp\\rust_mozprofilecUFZ1Y\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:63182/devtools/browser/0ed32f40-1e5d-417a-a172-fbbefd13c823
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 763))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 415))
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3if8t4/yN/l/en_US/ejJeprErNQ-.js?_nc_x=Ij3Wp8lg5Kz, line 42: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1670261285707	Marionette	INFO	Stopped listening on port 63256
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_untrustedmodules_ping
+WARNING: At least one completion condition is taking too long to complete. Conditions: [{"name":"ContentParent: id=20b2dff5100","state":{"remoteTypePrefix":"web"},"filename":"/builds/worker/checkouts/gecko/dom/ipc/ContentParent.cpp","lineNumber":3798,"stack":["resource://gre/modules/nsAsyncShutdown.jsm:addBlocker:164","chrome://global/content/elements/browser-custom-element.js:get loadContext:378","chrome://global/content/elements/browser-custom-element.js:construct:970","chrome://global/content/elements/browser-custom-element.js:connectedCallback:316","chrome://browser/content/tabbrowser.js:_setupInitialBrowserAndTab:414","chrome://browser/content/tabbrowser.js:init:58","chrome://browser/content/browser.js:onDOMContentLoaded:1752"]}] Barrier: profile-before-change
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3izvp4/yj/l/en_US/mwQRCuR_fs6LgvwffuKmeXKxTZfnbpOz1MtA224CHNKH64JQRFbO23nuEFEbyP2L2v3-ywY_c4aPtrj3SeHISlQC-xxHX2JM-ri8qg8uGdEtZaxMdiSUDSr9vV1KcukWgB6e.js?_nc_x=Ij3Wp8lg5Kz, line 4: Error: Minified React error #185; visit https://reactjs.org/docs/error-decoder.html?invariant=185 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+JavaScript error: resource://gre/modules/Sqlite.sys.mjs, line 1106: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\semeh\AppData\Local\Temp\rust_mozprofilecUFZ1Y\protections.sqlite
+1670261793826	geckodriver	INFO	Listening on 127.0.0.1:65245
+1670261796203	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--no-sandbox" "--disable-dev-shm-usage" "--ignore-certificate-errors" "--disable-gpu" "--log-level=3" "--disable-notifications" "--disable-popup-blocking" "--remote-debugging-port" "65246" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\semeh\\AppData\\Local\\Temp\\rust_mozprofilevs5hz4"
+*** You are running in headless mode.
+1670261800206	Marionette	INFO	Marionette enabled
+1670261800215	Marionette	INFO	Listening on port 65325
+Read port: 65325
+WebDriver BiDi listening on ws://127.0.0.1:65246
+1670261800438	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\semeh\\AppData\\Local\\Temp\\rust_mozprofilevs5hz4\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:65246/devtools/browser/09ac91c0-77c5-437b-a0d7-fa8aa6f694f4
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3if8t4/yN/l/en_US/ejJeprErNQ-.js?_nc_x=Ij3Wp8lg5Kz, line 42: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1670261847792	Marionette	INFO	Stopped listening on port 65325
+!!! error running onStopped callback: TypeError: callback is not a function
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3izvp4/yj/l/en_US/mwQRCuR_fs6LgvwffuKmeXKxTZfnbpOz1MtA224CHNKH64JQRFbO23nuEFEbyP2L2v3-ywY_c4aPtrj3SeHISlQC-xxHX2JM-ri8qg8uGdEtZaxMdiSUDSr9vV1KcukWgB6e.js?_nc_x=Ij3Wp8lg5Kz, line 4: Error: Minified React error #185; visit https://reactjs.org/docs/error-decoder.html?invariant=185 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+JavaScript error: resource://gre/modules/Sqlite.sys.mjs, line 1106: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\semeh\AppData\Local\Temp\rust_mozprofilevs5hz4\protections.sqlite
+1670279245195	geckodriver	INFO	Listening on 127.0.0.1:53304
+1670279249514	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--no-sandbox" "--disable-dev-shm-usage" "--ignore-certificate-errors" "--disable-gpu" "--log-level=3" "--disable-notifications" "--disable-popup-blocking" "--remote-debugging-port" "53305" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\semeh\\AppData\\Local\\Temp\\rust_mozprofilec7Le5k"
+*** You are running in headless mode.
+1670279252761	Marionette	INFO	Marionette enabled
+1670279252774	Marionette	INFO	Listening on port 53316
+Read port: 53316
+WebDriver BiDi listening on ws://127.0.0.1:53305
+Read port: 53316
+Read port: 53316
+Read port: 53316
+1670279257603	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\semeh\\AppData\\Local\\Temp\\rust_mozprofilec7Le5k\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:53305/devtools/browser/343726b7-843b-4ee8-a80c-457418121e77
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3if8t4/yN/l/en_US/ejJeprErNQ-.js?_nc_x=Ij3Wp8lg5Kz, line 42: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1670279301191	Marionette	INFO	Stopped listening on port 53316
+!!! error running onStopped callback: TypeError: callback is not a function
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3iZdj4/yc/l/en_US/T_tQeUegGFu.js?_nc_x=Ij3Wp8lg5Kz, line 1109: TypeError: can't access dead object
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3iZdj4/yc/l/en_US/T_tQeUegGFu.js?_nc_x=Ij3Wp8lg5Kz, line 1109: TypeError: can't access dead object
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 717: Error: Phase "Sqlite.jsm: wait until all connections are closed" is finished, it is too late to register completion condition "protections.sqlite#0: waiting for shutdown"
+1670279339864	geckodriver	INFO	Listening on 127.0.0.1:53377
+1670279342839	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--no-sandbox" "--disable-dev-shm-usage" "--ignore-certificate-errors" "--disable-gpu" "--log-level=3" "--disable-notifications" "--disable-popup-blocking" "--remote-debugging-port" "53378" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\semeh\\AppData\\Local\\Temp\\rust_mozprofile5a3BcK"
+*** You are running in headless mode.
+1670279343971	Marionette	INFO	Marionette enabled
+1670279343977	Marionette	INFO	Listening on port 53387
+WebDriver BiDi listening on ws://127.0.0.1:53378
+Read port: 53387
+1670279344725	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\semeh\\AppData\\Local\\Temp\\rust_mozprofile5a3BcK\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:53378/devtools/browser/11ac676a-11fb-4e36-8143-4845837406a8
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3if8t4/yN/l/en_US/ejJeprErNQ-.js?_nc_x=Ij3Wp8lg5Kz, line 42: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1670279374519	Marionette	INFO	Stopped listening on port 53387
+!!! error running onStopped callback: TypeError: callback is not a function
+WARNING: At least one completion condition is taking too long to complete. Conditions: [{"name":"ContentParent: id=208aa053800","state":{"remoteTypePrefix":"web"},"filename":"/builds/worker/checkouts/gecko/dom/ipc/ContentParent.cpp","lineNumber":3798,"stack":["resource://gre/modules/nsAsyncShutdown.jsm:addBlocker:164","chrome://global/content/elements/browser-custom-element.js:get loadContext:378","chrome://global/content/elements/browser-custom-element.js:construct:970","chrome://global/content/elements/browser-custom-element.js:connectedCallback:316","chrome://browser/content/tabbrowser.js:_setupInitialBrowserAndTab:414","chrome://browser/content/tabbrowser.js:init:58","chrome://browser/content/browser.js:onDOMContentLoaded:1752"]}] Barrier: profile-before-change
+JavaScript error: resource://gre/modules/Sqlite.sys.mjs, line 1106: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\semeh\AppData\Local\Temp\rust_mozprofile5a3BcK\protections.sqlite
+1670279457800	geckodriver	INFO	Listening on 127.0.0.1:53443
+1670279460890	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--no-sandbox" "--disable-dev-shm-usage" "--ignore-certificate-errors" "--disable-gpu" "--log-level=3" "--disable-notifications" "--disable-popup-blocking" "--remote-debugging-port" "53444" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\semeh\\AppData\\Local\\Temp\\rust_mozprofileKKeozB"
+*** You are running in headless mode.
+1670279462806	Marionette	INFO	Marionette enabled
+1670279462812	Marionette	INFO	Listening on port 53453
+WebDriver BiDi listening on ws://127.0.0.1:53444
+Read port: 53453
+1670279463270	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\semeh\\AppData\\Local\\Temp\\rust_mozprofileKKeozB\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:53444/devtools/browser/ff7a8a59-fce8-4a53-8733-47190cc0bd71
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3if8t4/yN/l/en_US/ejJeprErNQ-.js?_nc_x=Ij3Wp8lg5Kz, line 42: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1670279489185	Marionette	INFO	Stopped listening on port 53453
+!!! error running onStopped callback: TypeError: callback is not a function
+WARNING: At least one completion condition is taking too long to complete. Conditions: [{"name":"ContentParent: id=174c40d6600","state":{"remoteTypePrefix":"web"},"filename":"/builds/worker/checkouts/gecko/dom/ipc/ContentParent.cpp","lineNumber":3798,"stack":["resource://gre/modules/nsAsyncShutdown.jsm:addBlocker:164","chrome://global/content/elements/browser-custom-element.js:get loadContext:378","chrome://global/content/elements/browser-custom-element.js:construct:970","chrome://global/content/elements/browser-custom-element.js:connectedCallback:316","chrome://browser/content/tabbrowser.js:_setupInitialBrowserAndTab:414","chrome://browser/content/tabbrowser.js:init:58","chrome://browser/content/browser.js:onDOMContentLoaded:1752"]}] Barrier: profile-before-change
+console.error: (new Error("SessionFile is closed", "resource:///modules/sessionstore/SessionFile.jsm", 380))
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+JavaScript error: resource://gre/modules/Sqlite.sys.mjs, line 1106: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\semeh\AppData\Local\Temp\rust_mozprofileKKeozB\protections.sqlite
+1670360402838	geckodriver	INFO	Listening on 127.0.0.1:54460
+1670360405989	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--no-sandbox" "--disable-dev-shm-usage" "--ignore-certificate-errors" "--disable-gpu" "--log-level=3" "--disable-notifications" "--disable-popup-blocking" "--remote-debugging-port" "54461" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\semeh\\AppData\\Local\\Temp\\rust_mozprofileqVaSv6"
+*** You are running in headless mode.
+1670360408666	Marionette	INFO	Marionette enabled
+1670360408676	Marionette	INFO	Listening on port 54471
+Read port: 54471
+WebDriver BiDi listening on ws://127.0.0.1:54461
+1670360409057	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1670360409251	RemoteAgent	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"127.0.0.1:54459","sslProxy":"127.0.0.1:54459"}
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\semeh\\AppData\\Local\\Temp\\rust_mozprofileqVaSv6\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:54461/devtools/browser/02ae3015-db33-40dc-8856-7c5316e50de9
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3if8t4/yx/l/en_US/znpyWAatY7t.js?_nc_x=Ij3Wp8lg5Kz, line 40: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1670360450290	Marionette	INFO	Stopped listening on port 54471
+WARNING: At least one completion condition is taking too long to complete. Conditions: [{"name":"ContentParent: id=1d34af2a200","state":{"remoteTypePrefix":"web"},"filename":"/builds/worker/checkouts/gecko/dom/ipc/ContentParent.cpp","lineNumber":3798,"stack":["resource://gre/modules/nsAsyncShutdown.jsm:addBlocker:164","chrome://global/content/elements/browser-custom-element.js:get loadContext:378","chrome://global/content/elements/browser-custom-element.js:construct:970","chrome://global/content/elements/browser-custom-element.js:connectedCallback:316","chrome://browser/content/tabbrowser.js:_setupInitialBrowserAndTab:414","chrome://browser/content/tabbrowser.js:init:58","chrome://browser/content/browser.js:onDOMContentLoaded:1752"]}] Barrier: profile-before-change
+console.error: (new Error("SessionFile is closed", "resource:///modules/sessionstore/SessionFile.jsm", 380))
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_untrustedmodules_ping
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+JavaScript error: resource://gre/modules/Sqlite.sys.mjs, line 1106: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\semeh\AppData\Local\Temp\rust_mozprofileqVaSv6\protections.sqlite
+1670360535051	geckodriver	INFO	Listening on 127.0.0.1:54590
+1670360538099	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--no-sandbox" "--disable-dev-shm-usage" "--ignore-certificate-errors" "--disable-gpu" "--log-level=3" "--disable-notifications" "--disable-popup-blocking" "--remote-debugging-port" "54591" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\semeh\\AppData\\Local\\Temp\\rust_mozprofileBWh9kz"
+*** You are running in headless mode.
+1670360538924	Marionette	INFO	Marionette enabled
+1670360538934	Marionette	INFO	Listening on port 54601
+WebDriver BiDi listening on ws://127.0.0.1:54591
+Read port: 54601
+1670360539311	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1670360539418	RemoteAgent	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"127.0.0.1:54589","sslProxy":"127.0.0.1:54589"}
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\semeh\\AppData\\Local\\Temp\\rust_mozprofileBWh9kz\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:54591/devtools/browser/97333eb8-689e-441b-8df2-4cd479ed46de
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3if8t4/yx/l/en_US/znpyWAatY7t.js?_nc_x=Ij3Wp8lg5Kz, line 40: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1670360572160	Marionette	INFO	Stopped listening on port 54601
+!!! error running onStopped callback: TypeError: callback is not a function
+JavaScript error: resource://gre/modules/Sqlite.sys.mjs, line 1106: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\semeh\AppData\Local\Temp\rust_mozprofileBWh9kz\protections.sqlite
+1670360610837	geckodriver	INFO	Listening on 127.0.0.1:54701
+1670360613885	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--no-sandbox" "--disable-dev-shm-usage" "--ignore-certificate-errors" "--disable-gpu" "--log-level=3" "--disable-notifications" "--disable-popup-blocking" "--remote-debugging-port" "54702" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\semeh\\AppData\\Local\\Temp\\rust_mozprofilecmmqh8"
+*** You are running in headless mode.
+1670360614744	Marionette	INFO	Marionette enabled
+1670360614750	Marionette	INFO	Listening on port 54712
+Read port: 54712
+WebDriver BiDi listening on ws://127.0.0.1:54702
+1670360614935	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1670360615098	RemoteAgent	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"127.0.0.1:54700","sslProxy":"127.0.0.1:54700"}
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\semeh\\AppData\\Local\\Temp\\rust_mozprofilecmmqh8\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:54702/devtools/browser/a354533f-647e-4311-9c5a-1a71bd976eb2
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3if8t4/yx/l/en_US/znpyWAatY7t.js?_nc_x=Ij3Wp8lg5Kz, line 40: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1670360663287	Marionette	INFO	Stopped listening on port 54712
+WARNING: At least one completion condition is taking too long to complete. Conditions: [{"name":"ContentParent: id=203c4384600","state":{"remoteTypePrefix":"web"},"filename":"/builds/worker/checkouts/gecko/dom/ipc/ContentParent.cpp","lineNumber":3798,"stack":["resource://gre/modules/nsAsyncShutdown.jsm:addBlocker:164","chrome://global/content/elements/browser-custom-element.js:get loadContext:378","chrome://global/content/elements/browser-custom-element.js:construct:970","chrome://global/content/elements/browser-custom-element.js:connectedCallback:316","chrome://browser/content/tabbrowser.js:_setupInitialBrowserAndTab:414","chrome://browser/content/tabbrowser.js:init:58","chrome://browser/content/browser.js:onDOMContentLoaded:1752"]}] Barrier: profile-before-change
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3iZdj4/yt/l/en_US/9IiqEYJxOIt.js?_nc_x=Ij3Wp8lg5Kz, line 1109: TypeError: can't access dead object
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3iZdj4/yt/l/en_US/9IiqEYJxOIt.js?_nc_x=Ij3Wp8lg5Kz, line 1109: TypeError: can't access dead object
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3iZdj4/yt/l/en_US/9IiqEYJxOIt.js?_nc_x=Ij3Wp8lg5Kz, line 1109: TypeError: can't access dead object
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3iZdj4/yt/l/en_US/9IiqEYJxOIt.js?_nc_x=Ij3Wp8lg5Kz, line 1109: TypeError: can't access dead object
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3iZdj4/yt/l/en_US/9IiqEYJxOIt.js?_nc_x=Ij3Wp8lg5Kz, line 1109: TypeError: can't access dead object
+JavaScript error: resource://gre/modules/Sqlite.sys.mjs, line 1106: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\semeh\AppData\Local\Temp\rust_mozprofilecmmqh8\protections.sqlite
+1670361515030	geckodriver	INFO	Listening on 127.0.0.1:55211
+1670361518123	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--no-sandbox" "--disable-dev-shm-usage" "--ignore-certificate-errors" "--disable-gpu" "--log-level=3" "--disable-notifications" "--disable-popup-blocking" "--remote-debugging-port" "55212" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\semeh\\AppData\\Local\\Temp\\rust_mozprofilebEY0Y6"
+*** You are running in headless mode.
+1670361519190	Marionette	INFO	Marionette enabled
+1670361519201	Marionette	INFO	Listening on port 55225
+Read port: 55225
+WebDriver BiDi listening on ws://127.0.0.1:55212
+1670361519400	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1670361519572	RemoteAgent	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"127.0.0.1:55210","sslProxy":"127.0.0.1:55210"}
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\semeh\\AppData\\Local\\Temp\\rust_mozprofilebEY0Y6\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:55212/devtools/browser/688a5332-5e99-49af-a1b7-2472eae55056
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3if8t4/yx/l/en_US/znpyWAatY7t.js?_nc_x=Ij3Wp8lg5Kz, line 40: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1670361558049	Marionette	INFO	Stopped listening on port 55225
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3izvp4/y-/l/en_US/AUQr-q7shqTLgvwffuKmeXtp5nKZldojHjXJV-_QDdho64JQRFbO23nu_iRQ0O3TzHuEFEbyP2L2vrj3SeHISlQC7lEG5dvBzBLP97NjE0uCkaV1KcukWgB6e.js?_nc_x=Ij3Wp8lg5Kz, line 4: Error: Minified React error #185; visit https://reactjs.org/docs/error-decoder.html?invariant=185 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+JavaScript error: resource://gre/modules/Sqlite.sys.mjs, line 1106: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\semeh\AppData\Local\Temp\rust_mozprofilebEY0Y6\protections.sqlite
+1670361606635	geckodriver	INFO	Listening on 127.0.0.1:55338
+1670361609656	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--no-sandbox" "--disable-dev-shm-usage" "--ignore-certificate-errors" "--disable-gpu" "--log-level=3" "--disable-notifications" "--disable-popup-blocking" "--remote-debugging-port" "55339" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\semeh\\AppData\\Local\\Temp\\rust_mozprofile444PjY"
+*** You are running in headless mode.
+1670361610517	Marionette	INFO	Marionette enabled
+1670361610523	Marionette	INFO	Listening on port 55348
+WebDriver BiDi listening on ws://127.0.0.1:55339
+Read port: 55348
+1670361611032	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1670361611034	RemoteAgent	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"127.0.0.1:55337","sslProxy":"127.0.0.1:55337"}
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\semeh\\AppData\\Local\\Temp\\rust_mozprofile444PjY\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:55339/devtools/browser/0e8b5266-086a-405c-8c0c-182bbfaf3e1b
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3if8t4/yx/l/en_US/znpyWAatY7t.js?_nc_x=Ij3Wp8lg5Kz, line 40: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1670361650746	Marionette	INFO	Stopped listening on port 55348
+WARNING: At least one completion condition is taking too long to complete. Conditions: [{"name":"ContentParent: id=1c97f17ad00","state":{"remoteTypePrefix":"web"},"filename":"/builds/worker/checkouts/gecko/dom/ipc/ContentParent.cpp","lineNumber":3798,"stack":["resource://gre/modules/nsAsyncShutdown.jsm:addBlocker:164","chrome://global/content/elements/browser-custom-element.js:get loadContext:378","chrome://global/content/elements/browser-custom-element.js:construct:970","chrome://global/content/elements/browser-custom-element.js:connectedCallback:316","chrome://browser/content/tabbrowser.js:_setupInitialBrowserAndTab:414","chrome://browser/content/tabbrowser.js:init:58","chrome://browser/content/browser.js:onDOMContentLoaded:1752"]}] Barrier: profile-before-change
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3izvp4/y-/l/en_US/AUQr-q7shqTLgvwffuKmeXtp5nKZldojHjXJV-_QDdho64JQRFbO23nu_iRQ0O3TzHuEFEbyP2L2vrj3SeHISlQC7lEG5dvBzBLP97NjE0uCkaV1KcukWgB6e.js?_nc_x=Ij3Wp8lg5Kz, line 4: Error: Minified React error #185; visit https://reactjs.org/docs/error-decoder.html?invariant=185 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+JavaScript error: resource://gre/modules/Sqlite.sys.mjs, line 1106: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\semeh\AppData\Local\Temp\rust_mozprofile444PjY\protections.sqlite
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3iZdj4/yt/l/en_US/9IiqEYJxOIt.js?_nc_x=Ij3Wp8lg5Kz, line 1109: TypeError: can't access dead object
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3iZdj4/yt/l/en_US/9IiqEYJxOIt.js?_nc_x=Ij3Wp8lg5Kz, line 1109: TypeError: can't access dead object
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3iZdj4/yt/l/en_US/9IiqEYJxOIt.js?_nc_x=Ij3Wp8lg5Kz, line 1109: TypeError: can't access dead object
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3iZdj4/yt/l/en_US/9IiqEYJxOIt.js?_nc_x=Ij3Wp8lg5Kz, line 1109: TypeError: can't access dead object
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3iZdj4/yt/l/en_US/9IiqEYJxOIt.js?_nc_x=Ij3Wp8lg5Kz, line 1109: TypeError: can't access dead object
+1670421050892	geckodriver	INFO	Listening on 127.0.0.1:58773
